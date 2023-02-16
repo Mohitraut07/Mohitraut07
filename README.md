@@ -2,9 +2,8 @@
 
 ### [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Konichiwa!...)](https://git.io/typing-svg)
 </br>
-<img src='https://i.pinimg.com/originals/e3/fe/2a/e3fe2a464732cf99eaf436513d39dc7e.gif' alt='Alt what' align="right" height='600' width='500'>
+<img src='https://i.pinimg.com/originals/e3/fe/2a/e3fe2a464732cf99eaf436513d39dc7e.gif' alt='Alt what' align="right" height='500' width='400'>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=Mohitraut07&label=Profile%20views&color=0e75b6&style=flat" alt="Jeff" /> </p>
 
 ### 📈 GitHub Stats:
 ![My GitHub stats](https://github-readme-stats.vercel.app/api?username=Mohitraut07&theme=dark&show_icons=true)
