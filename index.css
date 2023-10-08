@@ -5,6 +5,25 @@
 }
 
 body{
+    margin:0;
+    padding:0;
+    top:0;
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    
+}
+.navbar{
+    min-width: 500px;
+    max-height: 500px;
+    background-color: var(--secondary-color);
+    color:var(--primary-color);
+    
+    
+}
+.navbar li{
+    list-style: none;
+}
+
+.navbar li,h2 a{
+    text-decoration:none;
 }
