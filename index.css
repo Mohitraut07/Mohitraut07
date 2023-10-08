@@ -1,68 +1,92 @@
-:root{
+:root {
     --primary-color: #10172A;
     --secondary-color: #0ea5e9;
     --tertiary-color: #eff6ff;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     display: block;
     background-color: var(--primary-color);
-    
 }
-.navbar{
+
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-width: 100vw;
     min-height: 130px;
     background-color: var(--secondary-color);
-    
-    
+    padding: 0 20px; /* Added some padding for better spacing */
+    border-radius:  1.5em 1em 1em 0;
 }
 
-.navbar h2 a{
+.navbar h2 a {
     padding: 1em;
-    text-decoration:none;
+    text-decoration: none;
     color: var(--tertiary-color);
 }
 
-.navbar ul{
+.navbar ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    list-style: none; /* Moved list-style property here */
+    margin: 0; /* Remove margin to eliminate default spacing */
+    padding: 0; /* Remove padding to eliminate default spacing */
 }
 
-.navbar li{
-    list-style: none;
+.navbar li {
+    margin: 0; /* Remove margin to eliminate default spacing */
+    padding: 0; /* Remove padding to eliminate default spacing */
 }
 
-.navbar ul > li  a{
-    margin: 1em;
+.navbar ul > li a {
+    margin: 0 10px; /* Adjust margin for spacing between links */
     padding: 1em;
     font-size: large;
-    text-decoration:none;
+    text-decoration: none;
     color: var(--tertiary-color);
 }
-.navbar ul > li a:link{
+
+.navbar ul > li a:link {
     color: var(--tertiary-color);
-    
 }
-.navbar ul > li a:visited{
-    opacity: 2;
+
+.navbar ul > li a:visited {
+    opacity: 0.8; /* Reduced opacity for visited links */
 }
-.navbar ul > li a:hover{
+
+.navbar ul > li a:hover {
     background-color: var(--primary-color);
-
+    color: var(--tertiary-color); /* Change text color on hover */
 }
-.navbar h2 > a:hover{
+
+.navbar h2 a:hover {
     color: var(--primary-color);
-
 }
 
-.navbar ul > li a:active{
+.navbar ul > li a:active {
     padding: 1em;
     text-decoration: none;
-    color:var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        flex-direction: column; /* Stack items vertically on small screens */
+        min-height: auto; /* Remove min-height for flexibility */
+    }
+
+    .navbar ul {
+        margin-top: 20px; /* Add some space between navbar and links */
+    }
+
+    .navbar ul > li a {
+        margin: 10px 0; /* Adjust margin for spacing between links */
+    }
 }
