@@ -15,7 +15,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-height: 130px;
+    min-height: 120px;
     background-color: var(--secondary-color);
     padding: 0 20px; /* Added some padding for better spacing */
     border-radius:  1.5em 1em 1em 0;
@@ -88,5 +88,42 @@ body {
 
     .navbar ul > li a {
         margin: 10px 0; /* Adjust margin for spacing between links */
+    }
+}
+
+.hero{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem 8rem 8rem;
+    color:var(--tertiary-color);
+}
+.hero img{
+    min-width: 120px;
+}
+.heroTitle{
+    margin: 5rem;
+}
+.heroHighlight{
+    color:var(--secondary-color);
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        box-sizing: border-box;
+        margin: 2rem 0; /* Adjusted the margin for smaller screens */
+        padding: 0;
+    }
+
+    .hero img {
+        max-width: 80%; /* Adjusted the image size for smaller screens */
+    }
+
+    .heroTitle {
+        margin: 2rem; /* Adjusted the margin for smaller screens */
     }
 }
