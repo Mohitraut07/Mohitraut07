@@ -10,6 +10,7 @@ body {
     padding: 0;
     display: block;
     background-color: var(--primary-color);
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -226,9 +227,16 @@ body {
 .mediaLinks  > li a{
     text-decoration: none;
     margin: 0 10px; /* Adjust margin for spacing between links */
-    padding: 1em;
     font-size: large;
     text-decoration: none;
     color: var(--tertiary-color);
-
+    
 }
+
+@media screen and (min-width:768px){
+    .mediaLinks > li a{
+
+        padding: 1em;
+    }
+
+} 
