@@ -197,6 +197,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 2em;
+    padding:1em;
     min-width: 85%;
     min-height: 150px;
     border-radius: 1rem;
