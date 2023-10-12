@@ -85,7 +85,7 @@ body {
     }
 
     .navbar ul {
-        margin-top: 20px; /* Add some space between navbar and links */
+        margin: 20px 0; /* Add some space between navbar and links */
     }
 
     .navbar ul > li a {
