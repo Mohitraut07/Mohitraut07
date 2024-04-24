@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded",function(){
     projects.sort(function(a,b){
         const dateA = new Date(a.querySelector("small").textContent);
         const dateB = new Date(b.querySelector("small").textContent);
-
         return (dateB-dateA);
+    
     });
 
     projects.forEach((project) => mySkills.appendChild(project));
