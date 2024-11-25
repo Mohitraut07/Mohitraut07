@@ -26,13 +26,11 @@
 
 ### My Projects
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Mohitraut07&repo=Gym-App&theme=dark)](https://github.com/Mohitraut07/Gym-App)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Mohitraut07&repo=Media_Uploader&theme=dark)](https://github.com/Mohitraut07/Media_Uploader)           [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Mohitraut07&repo=Gym-App&theme=dark)](https://github.com/Mohitraut07/Gym-App)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Freakyab&repo=fresh-flow&theme=dark)](https://github.com/Freakyab/fresh-flow)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Mohitraut07&repo=Asur&theme=dark)](https://github.com/Mohitraut07/Asur)                               [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Mohitraut07&repo=JusticeIndex&theme=dark)](https://github.com/Mohitraut07/JusticeIndex)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Mohitraut07&repo=Asur&theme=dark)](https://github.com/Mohitraut07/Asur)
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Mohitraut07&repo=JusticeIndex&theme=dark)](https://github.com/Mohitraut07/JusticeIndex)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Freakyab&repo=fresh-flow&theme=dark)](https://github.com/Freakyab/fresh-flow)                          
 
 ### Badges
 
