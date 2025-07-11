@@ -4,6 +4,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { inView, motion } from "framer-motion";
+import { useState, useEffect } from "react";
 
 import Image from "next/image";
 
@@ -13,12 +14,28 @@ import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => {
+  const [isDesktop, setIsDesktop] = useState(false);
+
+  useEffect(()=> {
+    const checkScreenSize = ()=> {
+      setIsDesktop(window.innerWidth>1170)
+    }
+
+    // On Mount
+    checkScreenSize();
+
+    // Event listener
+    window.addEventListener('resize',checkScreenSize);
+
+    // Cleanup event listener on unmount
+    return ()=> window.removeEventListener('resize',checkScreenSize);
+  },[])
+
   return (
     <VerticalTimelineElement
       visible={true}
       contentStyle={{ background: "#1d1836", color: "#fff" }}
       contentArrowStyle={{ borderRight: "7px solid #232631" }}
-      date={experience.date}
       iconStyle={{ background: experience.iconBg }}
       icon={
         <div className="flex justify-center items-center w-full h-full">
@@ -29,6 +46,7 @@ const ExperienceCard = ({ experience }) => {
           />
         </div>
       }
+      {...(isDesktop ? { date: experience.date } : {})}
     >
       <div>
         <h3 className="text-white text-2xl font-bold ">{experience.title}</h3>
@@ -46,9 +64,9 @@ const ExperienceCard = ({ experience }) => {
           </li>
         ))}
       </ul>
-      <span className="text-secondary text-base font-semibold pt-5">
+        <div className="text-secondary text-base font-semibold pt-5">
         {experience.date}
-      </span>
+      </div>
     </VerticalTimelineElement>
   );
 };
