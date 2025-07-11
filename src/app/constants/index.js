@@ -23,6 +23,7 @@ import {
     spendwise,
     freshflow,
     threejs,
+    renanLogo,
   } from "../assets";
   
 const navLinks = [
@@ -119,6 +120,26 @@ const navLinks = [
   ];
   
   const experiences = [
+    {
+      title: "Full Stack Developer Intern",
+      company_name: "Renan Partners Pvt. Ltd.",
+      icon: renanLogo,
+      iconBg: "#B0C0F3",
+      date: "Dec 2024 - Jul 2025",
+      points: [
+        "Developed end-to-end features on the DataBrewery platform using Django (backend) and React (frontend).",
+        "Built and scaled multilingual data production workflows across 20+ languages for voice model training and evaluation.",
+        "Designed and implemented 10+ client-specific, reusable workflow templates to support various AI data use cases.",
+        "Led the redesign and staging/production deployment of critical UI components, including the Import Page and Order System.",
+        "Improved system performance and reliability through structured nesting rules, file verification logic, and caching enhancements.",
+        "Integrated IPA-based pronunciation workflows ensuring phonetic accuracy across languages.",
+        "Collaborated with cross-functional teams (QA, Operations, Product) to validate, test, and deliver scalable production features.",
+        "Authored internal technical documentation and client-facing guides for setup, workflow management, and system onboarding.",
+        "Gained hands-on experience in version control (Git/GitHub), staging workflows, and deployment pipelines in a real-world SaaS environment."
+      ]
+
+
+    },
     {
       title: "Machine Learning Intern",
       company_name: "Google",

@@ -26,6 +26,7 @@ import threejs from "./tech/threejs.svg";
 import googleIcon from './company/google-icon.jpeg';
 import celonisIcon from "./company/celonis-icon.jpg";
 import octanetIcon from "./company/octanet-icon.jpeg";
+import renanLogo from "./company/renan-logo.jpeg";
 
 import justiceindex from "./justiceindex.png";
 import spendwise from "./spendwise.png";
@@ -55,6 +56,7 @@ export {
   tailwind,
   typescript,
   threejs,
+  renanLogo,
   googleIcon,
   celonisIcon,
   octanetIcon,
